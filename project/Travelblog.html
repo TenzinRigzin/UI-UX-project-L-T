@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Tales</title>
+    <link rel="stylesheet" href="blog.css">
+    <style>
+        img {
+            width: 250px;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+            margin: 10px 0;
+        }
+
+        .card img,
+        .featured-post img,
+        .bio img {
+            margin-left: 0;
+        }
+
+        .insta-grid img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .bio img {
+            width: 200px;
+            height: 250px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo">🌍 Wanderlust Tales</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Travel Tips</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="featured-post">
+            <div class="featured-content">
+                <h2>Exploring the Hidden Beaches of Bali</h2>
+                <p>Discover the serene beauty of Bali’s lesser-known coastal gems, where turquoise waters meet golden sands...</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <img src="beach.jpg" alt="Featured Destination">
+        </section>
+
+        <div class="content-grid">
+
+            <section class="recent-posts">
+                <h3>Recent Posts</h3>
+                <div class="post-grid">
+                    <article class="card">
+                        <h4>Hiking the Swiss Alps</h4>
+                        <a href="#">Read More</a>
+                        <img src="alps.jpg" alt="Post 1">
+                    </article>
+                    <article class="card">
+                        <h4>Street Food in Bangkok</h4>
+                        <a href="#">Read More</a>
+                        <img src="food.jpg" alt="Post 2">
+                    </article>
+                    <article class="card">
+                        <h4>Road Trip Through New Zealand</h4>
+                        <a href="#">Read More</a>
+                        <img src="roadtrip.jpg" alt="Post 3">
+                    </article>
+                    <article class="card">
+                        <h4>Paris in the Spring</h4>
+                        <a href="#">Read More</a>
+                        <img src="paris.jpg" alt="Post 4">
+                    </article>
+                    <article class="card">
+                        <h4>Camping in Patagonia</h4>
+                        <a href="#">Read More</a>
+                        <img src="camp.jpg" alt="Post 5">
+                    </article>
+                    <article class="card">
+                        <h4>Safari in Kenya</h4>
+                        <a href="#">Read More</a>
+                        <img src="safari.jpg" alt="Post 6">
+                    </article>
+                </div>
+            </section>
+
+
+            <aside class="sidebar">
+                <div class="bio">
+                    <h4>About Me</h4>
+                    <p>Hi, I’m Alex! I’ve been traveling for 10 years and love sharing stories from the road.</p>
+                    <img src="author.jpg" alt="Blogger">
+                </div>
+                <div class="categories">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Adventure</a></li>
+                        <li><a href="#">Food</a></li>
+                        <li><a href="#">Culture</a></li>
+                        <li><a href="#">Nature</a></li>
+                        <li><a href="#">City Life</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="instagram">
+            <h4>Instagram</h4>
+            <div class="insta-grid">
+                <img src="insta1.jpg" alt="Insta 1">
+                <img src="insta2.jpg" alt="Insta 2">
+                <img src="insta3.jpg" alt="Insta 3">
+                <img src="insta4.jpg" alt="Insta 4">
+            </div>
+        </div>
+        <div class="newsletter">
+            <h4>Join the Journey</h4>
+            <form>
+                <input type="email" placeholder="Your Email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+
+
+    <a href="#" class="back-to-top">↑</a>
+
+</body>
+</html>
